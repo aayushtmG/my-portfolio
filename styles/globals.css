@@ -16,6 +16,30 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+#portfolios::-webkit-scrollbar {
+  height: 2px;
+  background-color: inherit;
+}
+#portfolios::-webkit-scrollbar-thumb {
+  background-color: inherit;
+}
+
+::-webkit-scrollbar {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #757575;
+  border-radius: 50px;
+}
+
 .Typewriter::before {
   content: "";
   width: 3.5rem;

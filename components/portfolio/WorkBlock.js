@@ -2,12 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 const style = {
-  wrapper: "  group  shadow-lg rounded-xl text-white relative overflow-hidden ",
+  wrapper:
+    "  group shadow-lg rounded-xl text-white relative overflow-hidden  w-full  snap-center flex-shrink-0 ",
   titleWrapper: "flex flex-col items-center",
   workTitle: "text-center  text-xl md:text-2xl uppercase  cursor-default ",
   skills: " uppercase text-xs md:text-sm text-white/80  ",
   outerLayer:
-    "h-full w-full absolute bg-black/70 top-0 left-0  backdrop-blur-[2px] flex flex-col  space-y-4 md:space-y-6 justify-center items-center transition-opacity group-hover:opacity-100 ease-out duration-500 opacity-0",
+    "md:h-full w-full relative md:absolute bg-titleColor md:bg-black/70  top-0 left-0  backdrop-blur-[2px] flex flex-col  space-y-4 md:space-y-6 justify-center items-center transition-opacity  md:group-hover:opacity-100 ease-out duration-500 h-[200px] md:opacity-0",
   buttonWrapper: " flex justify-between gap-2 md:gap-4 ",
   btn: " text-sm px-4 py-1 md:px-6 md:py-2 text-black bg-white rounded-xl hover:bg-white/20 hover:text-white transition-background duration-300  ease-out",
 };

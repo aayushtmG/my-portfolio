@@ -5,12 +5,13 @@ import tipcalculator from "../../public/portfolio/tipcalculator.png";
 import todo from "../../public/portfolio/todo.png";
 
 const style = {
-  wrapper: "my-16 container h-screen py-20",
+  wrapper: "my-16 container h-screen py-20  ",
   title:
     "tracking-wider text-4xl font-bold underline underline-titleColor text-titleDark decoration-2 text-center underline-offset-4 lg:text-left ",
   titleWrapper: "w-4/5 mx-auto",
   titleDescription: "hidden lg:block text-textColor  pt-2",
-  blockWrapper: "py-5 grid gap-4 w-4/5 mx-auto md:grid-cols-2  ",
+  blockWrapper:
+    "py-20 p-10 mt-10 md:mt-0 flex overflow-x-scroll gap-4 snap-x snap-mandatory md:grid lg:w-4/5 lg:mx-auto md:grid-cols-2",
 };
 const Portfolio = () => {
   return (
@@ -19,7 +20,7 @@ const Portfolio = () => {
         <h1 className={style.title}>Portfolio</h1>
         <h2 className={style.titleDescription}>My Works</h2>
       </div>
-      <div className={style.blockWrapper}>
+      <div className={style.blockWrapper} id="portfolios">
         <WorkBlock
           backgroundImg={tictactoe}
           title={"tic-tac-toe"}

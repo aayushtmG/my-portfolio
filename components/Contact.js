@@ -17,17 +17,17 @@ const style = {
 
 const Contact = () => {
   return (
-    <div className={style.wrapper}>
+    <div className={style.wrapper} id="contact-section">
       <div className={style.innerWrapper}>
         <div className={style.titleWrapper}>
           <h1 className={style.title}>Contact</h1>
           <p className={style.titleDescription}>Get in touch with me </p>
           <p className={style.contact}>
-            <MdPhoneIphone className="w-5 h-5 font-bolder " />
+            <MdPhoneIphone className="w-5 h-5 font-bolder" />
             +977 9815285430
           </p>
           <p className={style.contact}>
-            <MdLocationPin className="w-5 h-5 font-bolder " />
+            <MdLocationPin className="w-5 h-5 font-bolder" />
             Chitwan, Nepal
           </p>
         </div>
@@ -37,7 +37,7 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Name"
-                className=" lg:w-1/2"
+                className="lg:w-1/2"
                 required
               />
               <input
