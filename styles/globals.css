@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+body {
+  background-color: #d6d6d6;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+}
+
+.Typewriter::before {
+  content: "";
+  width: 3.5rem;
+  height: 2px;
+  background-color: #757575;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.Typewriter {
+  position: relative;
+  padding-left: 4rem;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+.portBtn:hover .arrow {
+  transform: rotate(90deg);
+}
+
+input {
+  padding: 10px 20px;
+  background-color: #333333;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: inherit;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+  /* box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.5); */
+  transform: scale(1.05);
+  transition: transform 0.5s ease-out;
+}
+
+.big-container {
+  overflow: auto;
+  -webkit-scroll-type: y mandatory;
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+}
