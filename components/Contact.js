@@ -2,7 +2,7 @@ import { MdPhoneIphone, MdLocationPin } from "react-icons/md";
 
 const style = {
   wrapper: "h-screen container grid place-items-center ",
-  innerWrapper: "border-2 border-black w-full ",
+  innerWrapper: "w-full ",
   title:
     " text-4xl font-bold mb-4 underline tracking-wider text-titleDark decoration-2 text-center underline-offset-4 ",
   contact:
