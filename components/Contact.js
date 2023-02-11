@@ -2,7 +2,7 @@ import { MdPhoneIphone, MdLocationPin } from "react-icons/md";
 
 const style = {
   wrapper: "h-screen container grid place-items-center ",
-  innerWrapper: "w-full",
+  innerWrapper: "border-2 border-black w-full ",
   title:
     " text-4xl font-bold mb-4 underline tracking-wider text-titleDark decoration-2 text-center underline-offset-4 ",
   contact:
@@ -10,7 +10,7 @@ const style = {
   titleWrapper: "w-4/5 mx-auto flex-col  ",
   titleDescription: " text-center text-textColor 2xl:text-xl  ",
   formWrapper: " w-4/5 mx-auto max-w-[500px]",
-  form: " flex flex-col my-10 space-y-2 text-slate-400",
+  form: " flex flex-col my-10 space-y-2 text-slate-400 ",
   submitBtn:
     "mtracking-wider bg-titleColor text-slate-300  md:py-2 py-1.5 px-4  font-bold  rounded-lg lg:hover:bg-transparent lg:hover:text-titleColor  border transition-color duration-500 ease-out lg:hover:border-titleColor w-fit mx-auto mt-10",
 };
@@ -33,17 +33,17 @@ const Contact = () => {
         </div>
         <div className={style.formWrapper}>
           <form className={style.form}>
-            <div className="flex flex-col justify-between gap-2 md:flex-row ">
+            <div className="flex flex-col justify-between gap-2 lg:flex-row lg:gap-1 ">
               <input
                 type="text"
                 placeholder="Name"
-                className="flex-1"
+                className=" lg:w-1/2"
                 required
               />
               <input
                 type="email"
                 placeholder="emailid@email.com"
-                className="flex-1"
+                className="lg:w-1/2"
                 required
               />
             </div>
