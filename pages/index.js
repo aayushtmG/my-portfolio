@@ -10,16 +10,12 @@ export default function Home() {
   return (
     <div className=" h-screen snap-y snap-mandatory overflow-scroll overflow-x-hidden scroll-smooth scrollbar scrollbar-track-green-500 scrollbar-thumb-red-500">
       <Head>
-        <title>Aayush | Web Developer</title>
+        <title>Aayush Tamang</title>
         <meta property="og:title" content="Aayush Tamang protfolio website" />
-        <meta
-          property="og:description"
-          content="Aayush Tamang, Aayush Tamang portfolio,portoflio website,aayush portfolio,vercel"
-        />
-
+        <meta property="og:description" content=" Aayush Tamang portfolio" />
         <meta
           name="keywords"
-          content="aayush, tamang ,portfolio,website,vercel, aayush tamang portfolio, aayush tamang vercel, aayush vercel portfolio"
+          content="aayush tamang portfolio,aayush portfolio, aayush web developer vercel"
         />
         <meta
           name="google-site-verification"

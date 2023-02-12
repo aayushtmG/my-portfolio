@@ -8,7 +8,7 @@ const style = {
 const HeroImage = () => {
   return (
     <div className={style.imageWrapper}>
-      <Image src={hero} className={style.img} alt="aayush tamang"></Image>
+      <Image src={hero} className={style.img} alt="Aayush Tamang"></Image>
     </div>
   );
 };
