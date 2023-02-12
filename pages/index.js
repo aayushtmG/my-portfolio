@@ -21,6 +21,10 @@ export default function Home() {
           name="keywords"
           content="aayush, tamang ,portfolio,website,vercel, aayush tamang portfolio, aayush tamang vercel, aayush vercel portfolio"
         />
+        <meta
+          name="google-site-verification"
+          content="liD5y8ZgI2ZP4R4cmUjZSHMyAmVIy84wT1UwwkjkltA"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
