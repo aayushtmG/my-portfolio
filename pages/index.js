@@ -14,7 +14,7 @@ export default function Home() {
         <meta property="og:title" content="Aayush Tamang protfolio website" />
         <meta
           property="og:description"
-          content="Aayush Tamang, Aayush Tamang portfolio,portoflio website,aayush portfolio"
+          content="Aayush Tamang, Aayush Tamang portfolio,portoflio website,aayush portfolio,vercel"
         />
 
         <meta name="keywords" content="aayush, tamang ,portfolio,website" />
