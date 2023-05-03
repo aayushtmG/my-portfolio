@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+live: aayush-portfolio.vercel.app
 # My first portfolio website build using Nextjs and tailwind css
 
 Skills used:
