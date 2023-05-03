@@ -14,4 +14,4 @@ Skill used:
   2.CSS
   3.JS / NEXT.JS
   4.TAILWIND
->>>>>>> 8de15c480d283e7e82939f02416789fc4bd14d96
+
