@@ -1,18 +1,19 @@
-import WorkBlock from "./WorkBlock";
-import tictactoe from "../../public/portfolio/tictactoe.png";
-import tailwindPage from "../../public/portfolio/tailwindPage.png";
-import tipcalculator from "../../public/portfolio/tipcalculator.png";
-import todo from "../../public/portfolio/todo.png";
+import WorkBlock from "./WorkBlock"
+import tictactoe from "../../public/portfolio/tictactoe.png"
+import tailwindPage from "../../public/portfolio/tailwindPage.png"
+import tipcalculator from "../../public/portfolio/tipcalculator.png"
+import todo from "../../public/portfolio/todo.png"
+import FlashC from "/public/portfolio/flashC.png"
 
 const style = {
-  wrapper: "my-16 container h-screen py-20  ",
+  wrapper: "my-16 container h-max py-20 xl:py-10  ",
   title:
-    "tracking-wider text-4xl font-bold underline underline-titleColor text-titleDark decoration-2 text-center underline-offset-4 lg:text-left ",
+    "tracking-wider text-4xl font-bold underline underline-titleColor text-titleDark decoration-2 text-center underline-offset-4  ",
   titleWrapper: "w-4/5 mx-auto",
-  titleDescription: "hidden lg:block text-textColor  pt-2",
+  titleDescription: "hidden lg:block text-textColor text-center pt-2",
   blockWrapper:
     "py-20 p-10 mt-10 md:mt-0 flex overflow-x-scroll gap-4 snap-x snap-mandatory md:grid lg:w-4/5 lg:mx-auto md:grid-cols-2",
-};
+}
 const Portfolio = () => {
   return (
     <div className={style.wrapper} id="portfolioSection">
@@ -49,9 +50,16 @@ const Portfolio = () => {
           repoLink={"https://github.com/iceTmZz/todo"}
           liveLink={"https://icetmzz.github.io/todo/"}
         />
+        <WorkBlock
+          backgroundImg={FlashC}
+          title={"Flash Card"}
+          skills={["html", "css", "js", "nextjs", "mongodb", "express"]}
+          repoLink={"https://github.com/iceTmZz/flashC"}
+          liveLink={"https://icetmzz.github.io/tictactoe/"}
+        />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio

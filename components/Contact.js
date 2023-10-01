@@ -1,7 +1,7 @@
-import { MdPhoneIphone, MdLocationPin } from "react-icons/md";
+import { MdPhoneIphone, MdLocationPin } from "react-icons/md"
 
 const style = {
-  wrapper: "h-screen container grid place-items-center ",
+  wrapper: "h-screen container grid place-items-center  ",
   innerWrapper: "w-full ",
   title:
     " text-4xl font-bold mb-4 underline tracking-wider text-titleDark decoration-2 text-center underline-offset-4 ",
@@ -13,7 +13,7 @@ const style = {
   form: " flex flex-col my-10 space-y-2 text-slate-400 ",
   submitBtn:
     "mtracking-wider bg-titleColor text-slate-300  md:py-2 py-1.5 px-4  font-bold  rounded-lg lg:hover:bg-transparent lg:hover:text-titleColor  border transition-color duration-500 ease-out lg:hover:border-titleColor w-fit mx-auto mt-10",
-};
+}
 
 const Contact = () => {
   return (
@@ -62,7 +62,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

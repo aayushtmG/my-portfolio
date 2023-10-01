@@ -1,11 +1,11 @@
-import Image from "next/image";
+import Image from "next/image"
 
 const style = {
   block:
-    " shadow-md lg:cursor-pointer p-5 flex flex-col justify-center items-center  basis-1/3 lg:basis-1/4  rounded-md lg:p-20 gap-1 lg:gap-2 lg:hover:scale-[1.05] transition-transform lg:hover:shadow-lg ",
+    " shadow-md lg:cursor-pointer p-5 flex flex-col justify-center items-center  basis-1/3 lg:basis-1/4  rounded-md lg:p-10 2xl:p-20 gap-1 lg:gap-2 lg:hover:scale-[1.05] transition-transform lg:hover:shadow-lg ",
   skillTitle: "text-titleColor uppercase text-sm md:text-xl",
-  icon: "w-10 lg:w-20 ",
-};
+  icon: "w-10 xl:w-14 2xl:w-20 ",
+}
 
 function SkillBlock({ img, title }) {
   return (
@@ -19,7 +19,7 @@ function SkillBlock({ img, title }) {
       />
       <h1 className={style.skillTitle}>{title}</h1>
     </div>
-  );
+  )
 }
 
-export default SkillBlock;
+export default SkillBlock

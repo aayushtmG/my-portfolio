@@ -1,10 +1,10 @@
-import Head from "next/head";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Hero from "../components/hero";
-import Portfolio from "../components/portfolio";
-import Skill from "../components/skill";
+import Head from "next/head"
+import Contact from "../components/Contact"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import Hero from "../components/hero"
+import Portfolio from "../components/portfolio"
+import Skill from "../components/skill"
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
         <section className="snap-start ">
           <Hero />
         </section>
-        <section className="snap-start">
+        <section className="snap-start scroll-mb-24 ">
           <Skill />
         </section>
         <section className="snap-start ">
@@ -44,5 +44,5 @@ export default function Home() {
         <Footer />
       </footer>
     </div>
-  );
+  )
 }
