@@ -27,35 +27,35 @@ const Portfolio = () => {
           title={"tic-tac-toe"}
           skills={["html", "css", "js"]}
           repoLink={"https://github.com/iceTmZz/tictactoe"}
-          liveLink={"https://icetmzz.github.io/tictactoe/"}
+          liveLink={"https://aayushtmG.github.io/tictactoe/"}
         />
         <WorkBlock
           backgroundImg={tailwindPage}
           title={"Tailwind Page"}
           skills={["html", "css", "tailwind"]}
           repoLink={"https://github.com/iceTmZz/frontend-manage-page"}
-          liveLink={"https://icetmzz.github.io/frontend-manage-page/"}
+          liveLink={"https://aayushtmG.github.io/frontend-manage-page/"}
         />
         <WorkBlock
           backgroundImg={tipcalculator}
           title={"Tip Calculator"}
           skills={["html", "css", "js"]}
           repoLink={"https://github.com/iceTmZz/frontEndMentor-tipCalculator"}
-          liveLink={"https://icetmzz.github.io/frontEndMentor-tipCalculator/"}
+          liveLink={"https://aayushtmG.github.io/frontEndMentor-tipCalculator/"}
         />
         <WorkBlock
           backgroundImg={todo}
           title={"To Do App"}
           skills={["html", "css", "js"]}
           repoLink={"https://github.com/iceTmZz/todo"}
-          liveLink={"https://icetmzz.github.io/todo/"}
+          liveLink={"https://aayushtmG.github.io/todo/"}
         />
         <WorkBlock
           backgroundImg={FlashC}
           title={"Flash Card"}
           skills={["html", "css", "js", "nextjs", "mongodb", "express"]}
           repoLink={"https://github.com/iceTmZz/flashC"}
-          liveLink={"https://icetmzz.github.io/tictactoe/"}
+          liveLink={"https://aayushtmG.github.io/tictactoe/"}
         />
       </div>
     </div>
