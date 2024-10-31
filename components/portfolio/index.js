@@ -5,6 +5,7 @@ import tipcalculator from "../../public/portfolio/tipcalculator.png"
 import todo from "../../public/portfolio/todo.png"
 import FlashC from "/public/portfolio/flashC.png"
 import FakeStore from "/public/portfolio/fakestore.png"
+import NarutoGame from "/public/portfolio/NarutoGame.png"
 
 const style = {
   wrapper: "my-16 container h-max py-20 xl:py-10  ",
@@ -64,6 +65,13 @@ const Portfolio = () => {
           skills={["html", "css", "js", "react"]}
           repoLink={"https://github.com/aayushtmG/FakeStore"}
           liveLink={"https://fakestore-aayush.netlify.app/"}
+        />
+        <WorkBlock
+          backgroundImg={NarutoGame}
+          title={"Naruto Memory Game"}
+          skills={["html", "css", "js", "react"]}
+          repoLink={"https://github.com/aayushtmG/Naruto-memory-game"}
+          liveLink={"https://naruto-memorygame.netlify.app"}
         />
       </div>
     </div>
