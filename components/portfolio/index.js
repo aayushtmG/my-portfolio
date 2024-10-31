@@ -4,6 +4,7 @@ import tailwindPage from "../../public/portfolio/tailwindPage.png"
 import tipcalculator from "../../public/portfolio/tipcalculator.png"
 import todo from "../../public/portfolio/todo.png"
 import FlashC from "/public/portfolio/flashC.png"
+import FakeStore from "/public/portfolio/fakestore.png"
 
 const style = {
   wrapper: "my-16 container h-max py-20 xl:py-10  ",
@@ -26,36 +27,43 @@ const Portfolio = () => {
           backgroundImg={tictactoe}
           title={"tic-tac-toe"}
           skills={["html", "css", "js"]}
-          repoLink={"https://github.com/iceTmZz/tictactoe"}
+          repoLink={"https://github.com/aayushtmG/tictactoe"}
           liveLink={"https://aayushtmG.github.io/tictactoe/"}
         />
         <WorkBlock
           backgroundImg={tailwindPage}
           title={"Tailwind Page"}
           skills={["html", "css", "tailwind"]}
-          repoLink={"https://github.com/iceTmZz/frontend-manage-page"}
+          repoLink={"https://github.com/aayushtmG/frontend-manage-page"}
           liveLink={"https://aayushtmG.github.io/frontend-manage-page/"}
         />
         <WorkBlock
           backgroundImg={tipcalculator}
           title={"Tip Calculator"}
           skills={["html", "css", "js"]}
-          repoLink={"https://github.com/iceTmZz/frontEndMentor-tipCalculator"}
+          repoLink={"https://github.com/aayushtmG/frontEndMentor-tipCalculator"}
           liveLink={"https://aayushtmG.github.io/frontEndMentor-tipCalculator/"}
         />
         <WorkBlock
           backgroundImg={todo}
           title={"To Do App"}
           skills={["html", "css", "js"]}
-          repoLink={"https://github.com/iceTmZz/todo"}
+          repoLink={"https://github.com/aayushtmG/todo"}
           liveLink={"https://aayushtmG.github.io/todo/"}
         />
         <WorkBlock
           backgroundImg={FlashC}
           title={"Flash Card"}
           skills={["html", "css", "js", "nextjs", "mongodb", "express"]}
-          repoLink={"https://github.com/iceTmZz/flashC"}
+          repoLink={"https://github.com/aayushtmG/flashC"}
           liveLink={"https://aayushtmG.github.io/tictactoe/"}
+        />
+        <WorkBlock
+          backgroundImg={FakeStore}
+          title={"Fake Store Ecommerce"}
+          skills={["html", "css", "js", "react"]}
+          repoLink={"https://github.com/aayushtmG/FakeStore"}
+          liveLink={"https://fakestore-aayush.netlify.app/"}
         />
       </div>
     </div>

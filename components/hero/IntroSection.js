@@ -1,9 +1,9 @@
 import Typewriter from "typewriter-effect"
 import {
   AiOutlineCaretRight,
-  AiFillFacebook,
   AiFillTwitterCircle,
   AiFillLinkedin,
+  AiFillGithub,
 } from "react-icons/ai"
 import Link from "next/link"
 
@@ -26,10 +26,10 @@ const IntroSection = () => {
     <div className={style.section}>
       <div className={style.iconSection}>
         <Link
-          href={"https://www.facebook.com/AayushTamang2002"}
+          href={"https://www.github.com/aayushtmG"}
           target="_blank"
         >
-          <AiFillFacebook className={style.icon} />
+          <AiFillGithub className={style.icon} />
         </Link>
         <Link
           href={"https://www.linkedin.com/in/aayush-tamang-2995591ab/"}

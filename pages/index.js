@@ -30,7 +30,7 @@ export default function Home() {
         <section className="snap-start ">
           <Hero />
         </section>
-        <section className="snap-start scroll-mb-24 ">
+        <section className="snap-start ">
           <Skill />
         </section>
         <section className="snap-start ">
