@@ -8,7 +8,7 @@ import wordpressIcon from "../../public/icons/wordpress.png"
 import tailwindIcon from "../../public/icons/tailwind.png"
 import nextjsIcon from "../../public/icons/nextjs.png"
 const style = {
-  wrapper: "container py-20 xl:py-10 h-max 2xl:h-screen",
+  wrapper: "container py-20 xl:py-10 h-max 2xl:h-max",
   title:
     "tracking-wider text-4xl font-bold underline underline-titleColor text-titleDark decoration-2 text-center underline-offset-4  ",
   titleWrapper: "w-4/5 mx-auto ",

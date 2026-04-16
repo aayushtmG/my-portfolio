@@ -8,7 +8,7 @@ import FakeStore from "/public/portfolio/fakestore.png"
 import NarutoGame from "/public/portfolio/NarutoGame.png"
 
 const style = {
-  wrapper: "my-16 container h-max py-20 xl:py-10  ",
+  wrapper: "my-16 container py-20 xl:py-10 h-max",
   title:
     "tracking-wider text-4xl font-bold underline underline-titleColor text-titleDark decoration-2 text-center underline-offset-4  ",
   titleWrapper: "w-4/5 mx-auto",
